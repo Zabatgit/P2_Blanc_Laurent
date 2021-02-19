@@ -1,3 +1,8 @@
+
+
+/*Général*/
+
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -6,15 +11,54 @@ i {
     color: #0065FC;
 }
 
+a {
+    text-decoration: none;
+}
+
+article {
+    background-color: white;
+}
+
+
+/*Section recherche*/
+
+
+#iconeNoire {
+    color: black;
+    background-color: #F2F2F2;
+}
+
+button {
+    background-color: #0065FC;
+}
+
+li i {
+    background-color: #DEEBFF;
+}
+
+
+/*Section hébergements*/
+
+
 .hébergements {
     background-color: #F2F2F2;
 }
+
+
+/*Aside populaires*/
+
 
 .populaires {
     background-color: #F2F2F2;
 }
 
+
+/*Section activités*/
+
+
+/*Footer*/
+
+
 footer {
     background-color: #F2F2F2;
 }
-
