@@ -7,12 +7,21 @@
     font-family: 'Raleway', sans-serif;
 }
 
+#bloc_page {
+    width: 100%;
+    margin: auto;
+}
+
 i {
     color: #0065FC;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 article {
@@ -42,18 +51,25 @@ li i {
 
 .hébergements {
     background-color: #F2F2F2;
-    width: 55%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
 }
 
-img {
+.hébergements img {
     width: 300px;
-    height: 200px;
 }
 
 .hébergements article {
-    justify-content: space-between;
-    flex-direction: row;
     width: 300px;
+}
+
+.imgHeb {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
 }
 
 
@@ -62,7 +78,12 @@ img {
 
 .populaires {
     background-color: #F2F2F2;
-    width: 35%;
+    width: 30%;
+}
+
+.populaires img {
+    width: 220px;
+    height: 150px;
 }
 
 
