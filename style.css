@@ -12,6 +12,15 @@
     margin: auto;
 }
 
+button {
+    border: none;
+    background-color: #0065FC;
+}
+
+input {
+    border: none;
+}
+
 i {
     color: #0065FC;
 }
@@ -27,6 +36,35 @@ ul {
 article {
     background-color: white;
 }
+
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30%;
+   margin-top: 2%;
+}
+
+header nav {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+header nav a {
+    color: black;
+    margin-left: 2%;
+}
+
+header nav a:hover
+
 
 
 /*Section recherche*/
@@ -46,32 +84,47 @@ li i {
 }
 
 
+/*Div placementArticles*/
+
+
+.placementSectionHebPop {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
 /*Section hébergements*/
 
 
 .hébergements {
     background-color: #F2F2F2;
     width: 60%;
+    border-radius: 30px;
+}
+
+.artHeb {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-left: 1%;
 }
 
 .hébergements img {
-    width: 300px;
+    max-width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .hébergements article {
-    width: 300px;
+    border: 3px #FFFFFF solid;
+    border-radius: 30px;
+    max-width: 26%;
+    max-height: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
-
-.imgHeb {
-    width: 250px;
-    height: 150px;
-    overflow: hidden;
-    text-align: center;
-}
-
 
 /*Aside populaires*/
 
@@ -79,12 +132,27 @@ li i {
 .populaires {
     background-color: #F2F2F2;
     width: 30%;
+    margin-left: 1%;
+    border-radius: 30px;
 }
 
 .populaires img {
-    width: 220px;
-    height: 150px;
+    max-width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
+
+.populaires article {
+    /*display: flex;*/
+    border: 3px #FFFFFF solid;
+    border-radius: 30px;
+    max-width: 80%;
+}
+
+/*.column {
+    flex-direction: row;
+    justify-content: space-around;
+}*/
 
 
 /*Section activités*/
@@ -95,4 +163,6 @@ li i {
 
 footer {
     background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
 }
