@@ -20,8 +20,8 @@
             </div>
             <div class="nav">
                 <nav>
-                    <a href="hébergements">Hébergements</a>
-                    <a href="activités">Activités</a>
+                    <a class="navHover" href="hébergements">Hébergements</a>
+                    <a class="navHover" href="activités">Activités</a>
                 </nav>
                 <a href="inscription">S'inscrire</a>
             </div>
@@ -34,9 +34,9 @@
                     <i class="fas fa-map-marker-alt" id="iconeNoire"></i><input type="search">
                     <button>Rechercher</button>
                 </div>
-                <div>
-                    <h3>Filtres</h3>
+                <div class="filtres">
                     <ul>
+                        <li><h3 class="cancelMargin">Filtres</h3></li>
                         <li><i class="fas fa-money-bill-wave"></i><a href="#">Economique</a></li>
                         <li><i class="fas fa-child"></i><a href="#">Famillial</a></li>
                         <li><i class="fas fa-heart"></i><a href="#">Romantique</a></li>
@@ -49,7 +49,7 @@
                 <section class="hébergements">
                     <h2>Hébergements à Marseille</h2>
                     <div class="artHeb">
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                     alt="">
@@ -59,8 +59,7 @@
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
                         </article>
-
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                     alt="">
@@ -69,9 +68,8 @@
                             <p>Nuit à partir de 52€</p>
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <!--mettre les étoiles ici (je sais pas comment pour l'instant)-->
                         </article>
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                     alt="">
@@ -80,9 +78,8 @@
                             <p>Nuit à partir de 76€</p>
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <!--mettre les étoiles ici (je sais pas comment pour l'instant)-->
                         </article>
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                     alt="">
@@ -91,9 +88,8 @@
                             <p>Nuit à partir de 46€</p>
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <!--mettre les étoiles ici (je sais pas comment pour l'instant)-->
                         </article>
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                     alt="">
@@ -102,9 +98,8 @@
                             <p>Nuit à partir de 23€</p>
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <!--mettre les étoiles ici (je sais pas comment pour l'instant)-->
                         </article>
-                        <article>
+                        <article class="tailleArticle01">
                             <div class="imgHeb">
                                 <img src="contents/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                     alt="">
@@ -113,7 +108,6 @@
                             <p>Nuit à partir de 96€</p>
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i>
-                            <!--mettre les étoiles ici (je sais pas comment pour l'instant)-->
                         </article>
                     </div>
                     <p>Afficher plus</p>
@@ -121,7 +115,7 @@
                 <aside class="populaires">
                     <h2>Les plus populaires</h2>
                     <div class="artPop">
-                        <article>
+                        <article class="tailleArticle02">
                             <div class="imgPop">
                                 <img src="contents/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                     alt="">
@@ -133,7 +127,7 @@
                                     class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                         </article>
-                        <article>
+                        <article class="tailleArticle02">
                             <div class="imgPop">
                                 <img src="contents/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                     alt="">
@@ -145,7 +139,7 @@
                                     class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
                         </article>
-                        <article>
+                        <article class="tailleArticle02">
                             <div class="imgPop">
                                 <img src="contents/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                                     alt="">
@@ -159,54 +153,52 @@
                         </article>
                     </div>
                 </aside>
-            </div>    
-                <section class="activités">
-                    <h2>Activités à Marseille</h2>
-                    <article>
+            </div>
+            <section class="activités">
+                <h2>Activités à Marseille</h2>
+                <div class="activités01">
+                    <article class="tailleArticle03.1">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                 alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Vieux port</h3>
                     </article>
-                    <article>
+                    <article class="tailleArticle03.2">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Fort de Pomègues</h3>
                     </article>
-                    <article>
+                    <article class="tailleArticle03.2">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Îles du Frioul</h3>
                     </article>
-                    <article>
+                </div>
+                <div class="activités02">
+                    <article class="tailleArticle03.1">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                 alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Parc National des Calanques</h3>
                     </article>
-                    <article>
+                    <article class="tailleArticle03.2">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </article>
-                    <article>
+                    <article class="tailleArticle03.2">
                         <div class="imgAct">
                             <img src="contents/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
                         </div>
-                        <!--mettre moyenne image-->
                         <h3>Parc Longchamp</h3>
                     </article>
-                </section>
+                </div>
+            </section>
         </main>
     </div>
     <footer>
@@ -233,7 +225,6 @@
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>

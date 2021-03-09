@@ -1,6 +1,6 @@
 
 
-/*Général*/
+/***********************Général************************/
 
 
 * {
@@ -37,8 +37,17 @@ article {
     background-color: white;
 }
 
+h2 {
+    margin-left: 2%;
+}
 
-/*Header*/
+
+/********************Header*********************/
+
+
+.logo {
+    margin: 1%;
+}
 
 header {
     display: flex;
@@ -50,7 +59,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     width: 30%;
-   margin-top: 2%;
+    margin-top: 2%;
 }
 
 header nav {
@@ -60,31 +69,62 @@ header nav {
 
 header nav a {
     color: black;
-    margin-left: 2%;
+    margin-right: 25%;
+    padding-top: 9.1%;
 }
 
-header nav a:hover
+.navHover:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
 
 
+/********************Section recherche**************************/
 
-/*Section recherche*/
 
+.filtres ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtres ul li {
+    margin: 3%;
+}
+
+.cancelMargin {
+    margin: 0px;
+}
 
 #iconeNoire {
     color: black;
     background-color: #F2F2F2;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 button {
     background-color: #0065FC;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0px;
+}
+
+input {
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 15px;
 }
 
 li i {
     background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 30px;
 }
 
 
-/*Div placementArticles*/
+/************************Div placementArticles****************************/
 
 
 .placementSectionHebPop {
@@ -94,7 +134,7 @@ li i {
 }
 
 
-/*Section hébergements*/
+/************************Section hébergements******************************/
 
 
 .hébergements {
@@ -120,13 +160,17 @@ li i {
 .hébergements article {
     border: 3px #FFFFFF solid;
     border-radius: 30px;
-    max-width: 26%;
-    max-height: 25%;
+    width: 26%;
+    height: 25%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-/*Aside populaires*/
+.tailleArticle01 {
+    max-height: 1%;
+}
+
+/**************************Aside populaires***************************/
 
 
 .populaires {
@@ -143,22 +187,21 @@ li i {
 }
 
 .populaires article {
-    /*display: flex;*/
+    display: flex;
     border: 3px #FFFFFF solid;
     border-radius: 30px;
     max-width: 80%;
 }
 
-/*.column {
-    flex-direction: row;
-    justify-content: space-around;
-}*/
+.tailleArticle02 {
+    height: 200px;
+}
 
 
-/*Section activités*/
+/*************************Section activités**************************/
 
 
-/*Footer*/
+/*************************Footer**************************/
 
 
 footer {
