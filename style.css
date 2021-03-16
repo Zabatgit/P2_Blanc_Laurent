@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: black;
+}
+
 ul {
     list-style-type: none;
 }
@@ -41,12 +45,16 @@ h2 {
     margin-left: 2%;
 }
 
+body {
+    margin: 0px;
+}
+
 
 /********************Header*********************/
 
 
 .logo {
-    margin: 1%;
+    margin: 1.5%;
 }
 
 header {
@@ -58,19 +66,27 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 30%;
-    margin-top: 45px;
+    width: 20%;
+    
 }
 
 header nav {
+    display: flex;
     justify-content: flex-end;
+    flex-wrap: nowrap;
     width: 100%;
 }
 
 header nav a {
     color: black;
-    margin-right: 25%;
-    padding-top: 50px;
+    margin-right: 20%;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inscription {
+    padding-top: 45px;
 }
 
 .navHover:hover {
@@ -111,7 +127,9 @@ header nav a {
     border-bottom: solid 2px  #F2F2F2;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .cancelMargin {
@@ -157,6 +175,23 @@ input:focus {
    display: inline-flex;
 }
 
+.recherche p {
+    display: flex;
+    align-items: center;
+}
+
+.recherche p i {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 2px #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /************************Div placementArticles****************************/
 
@@ -175,6 +210,7 @@ input:focus {
     background-color: #F2F2F2;
     width: 60%;
     border-radius: 30px;
+    min-width: 14em;
 }
 
 .artHeb {
@@ -198,6 +234,7 @@ input:focus {
     border-radius: 30px;
     width: 26%;
     height: 25%;
+    min-width: 12em;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -211,17 +248,21 @@ input:focus {
     background-color: #F2F2F2;
     width: 30%;
     border-radius: 30px;
+    min-width: 20em;
 }
 
 .artPop {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 1%;
+    margin: 5%;
 }
 
 .populaires img {
-    width: 100%;
+    width: 10em;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -230,26 +271,46 @@ input:focus {
     display: flex;
     border: 3px #FFFFFF solid;
     border-radius: 30px;
+    max-width: 22em;
+    height: 10em;
+    
 }
-
-.tailleArticle02 {
-    height: 30%;
-    width: 85%;
-    margin: auto;
-}
-
-.imgPop {
-    position: relative;
-    overflow: hidden;
-    width: 30%;
-    height: 100%;
-}
-
 
 
 
 /*************************Section activités**************************/
 
+
+.activités {
+    display: flex;
+}
+
+.activités01 {
+    display: flex;
+    width: 50%;
+}
+
+.activités02 {
+    display: flex;
+    width: 50%;
+}
+
+.tailleArticle03.1 {
+    height : 20em;
+    width : 12em;
+}
+
+.tailleArticle03.2 {
+    height : 20em;
+    width : 12em;
+}
+
+.imgAct img {
+    height: 12em;
+    width: 12em;
+    position: relative;
+    object-fit: cover;
+}
 
 /*************************Footer**************************/
 
