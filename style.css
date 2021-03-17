@@ -7,11 +7,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#bloc_page {
-    width: 100%;
-    margin: auto;
-}
-
 button {
     border: none;
     background-color: #0065FC;
@@ -46,7 +41,9 @@ h2 {
 }
 
 body {
-    margin: 0px;
+    max-width: 1440px;
+    margin: auto;    
+    box-sizing: border-box;
 }
 
 
@@ -119,6 +116,7 @@ header nav a {
     width: 40px;
     height: 40px;
     border-radius: 30px;
+    margin: -20px;
 }
 
 .filtres li a {
@@ -127,9 +125,12 @@ header nav a {
     border-bottom: solid 2px  #F2F2F2;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 8px;
+    padding-right: 8px;
     padding-bottom: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .cancelMargin {
@@ -192,6 +193,10 @@ input:focus {
     justify-content: center;
 }
 
+article h3, p, .star {
+    margin-left: 8%;
+}
+
 
 /************************Div placementArticles****************************/
 
@@ -199,7 +204,8 @@ input:focus {
 .placementSectionHebPop {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 2%;
 }
 
 
@@ -208,9 +214,17 @@ input:focus {
 
 .hébergements {
     background-color: #F2F2F2;
-    width: 60%;
+    width: 65%;
     border-radius: 30px;
     min-width: 14em;
+}
+
+.hébergements h2 {
+    margin-left: 5%;
+}
+
+#blackIcon {
+    color: black;
 }
 
 .artHeb {
@@ -246,15 +260,25 @@ input:focus {
 
 .populaires {
     background-color: #F2F2F2;
-    width: 30%;
+    width: 33%;
     border-radius: 30px;
     min-width: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+.populaires h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .artPop {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-between;
     margin: 5%;
 }
 
@@ -272,9 +296,13 @@ input:focus {
     border: 3px #FFFFFF solid;
     border-radius: 30px;
     max-width: 22em;
+    min-width: 19em;
     height: 10em;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
 
 
 
@@ -283,33 +311,39 @@ input:focus {
 
 .activités {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activités article {
+    width: 25%;
+}
+
+.activités img {
+    width: 200px;
+    height: 200px;
+
 }
 
 .activités01 {
     display: flex;
+    justify-content: flex-start;
     width: 50%;
 }
 
 .activités02 {
     display: flex;
+    justify-content: flex-start;
     width: 50%;
 }
 
-.tailleArticle03.1 {
-    height : 20em;
-    width : 12em;
+.Right {
+    display: flex;
+    flex-direction: column;
 }
 
-.tailleArticle03.2 {
-    height : 20em;
-    width : 12em;
-}
-
-.imgAct img {
-    height: 12em;
-    width: 12em;
-    position: relative;
-    object-fit: cover;
+.Left {
+    
 }
 
 /*************************Footer**************************/
