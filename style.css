@@ -133,6 +133,11 @@ header nav a {
     justify-content: center;
 }
 
+.filtres li a:hover {
+    color: #0065FC;
+    font-weight: bold;
+}
+
 .cancelMargin {
     margin: 0px;
 }
@@ -311,40 +316,52 @@ article h3, p, .star {
 
 .activités {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.activités article {
-    width: 25%;
-}
-
-.activités img {
-    width: 200px;
-    height: 200px;
-
+    margin-left: 2em;
 }
 
 .activités01 {
     display: flex;
-    justify-content: flex-start;
-    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .activités02 {
     display: flex;
-    justify-content: flex-start;
-    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.Right {
-    display: flex;
-    flex-direction: column;
+.activités img {
+    width: 20em;
+    object-fit: cover;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
-.Left {
-    
+.articleLeft {
+    box-shadow: 6px 6px 6px #F2F2F2;
+    border-radius: 30px;
+    margin-bottom: 2em;
 }
+
+.articleLeft img {
+    height: 500px;
+}
+
+.articleRight img {
+    height: 200px;
+}
+
+.articleRight {
+    box-shadow: 6px 6px 6px #F2F2F2;
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+
 
 /*************************Footer**************************/
 
@@ -353,4 +370,18 @@ footer {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
+    margin-left: 2em;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3 {
+    margin-top: 2em;
+}
+
+footer div a {
+    margin-bottom: 10px;
 }
