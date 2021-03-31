@@ -38,6 +38,11 @@ article {
 
 h2 {
     margin-left: 2%;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 body {
@@ -137,6 +142,7 @@ header nav a {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .filtres li a:hover {
@@ -168,11 +174,21 @@ button:focus {
     outline: 0;
 }
 
+#hideIcone {
+    display: none;
+}
+
+#hideSearch {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 input {
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     padding-top: 15.1px;
     padding-bottom: 13px;
+    width: 20em;
 }
 
 input:focus { 
@@ -245,6 +261,11 @@ article h3, p, .star {
     margin-left: 1%;
 }
 
+.artHeb p, h3, .star {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .hébergements img {
     width: 100%;
     height: 10em;
@@ -293,6 +314,14 @@ article h3, p, .star {
     margin: 5%;
 }
 
+.artPop .star {
+    margin-top: 50px;
+}
+
+.artPop p {
+    margin-top: 8px;
+}
+
 .populaires img {
     width: 10em;
     height: 100%;
@@ -323,18 +352,21 @@ article h3, p, .star {
 .activités {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: 2em;
 }
 
 .activités01 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .activités02 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -358,6 +390,7 @@ article h3, p, .star {
 
 .articleRight img {
     height: 200px;
+    margin: 0px;
 }
 
 .articleRight {
@@ -393,4 +426,70 @@ footer h3 {
 
 footer div a {
     margin-bottom: 10px;
+}
+
+
+
+
+/**********************Smartphones**************************/
+
+
+@media screen and (max-width: 480px) {
+
+
+/**********************Header*************************/
+
+
+.logo {
+    padding: 0px;
+}
+
+.nav {
+    flex-direction: column-reverse;
+}
+
+.nav nav {
+    display: flex;
+    
+}
+
+.nav .inscription {
+    padding-top: 25px;
+}
+
+.navHover:hover {
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    border-top: none;
+}
+
+
+
+/**********************Section recherche*************************/
+
+
+.recherche input {
+    width: 15em;
+}
+
+#hideSearch {
+    display: none;
+} 
+
+#hideIcone {
+    display: block;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
