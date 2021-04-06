@@ -442,16 +442,22 @@ footer div a {
 
 
 .logo {
-    padding: 0px;
+    position: absolute;
 }
 
 .nav {
+    display: flex;
     flex-direction: column-reverse;
+}
+
+.inscription {
+    display: flex;
+    justify-content: ;
 }
 
 .nav nav {
     display: flex;
-    
+    justify-content: flex-start;
 }
 
 .nav .inscription {
@@ -499,7 +505,21 @@ footer div a {
 .populaires {
     width: auto;
     margin-left: 0px;
+    border-radius: 0px;
+}
 
+
+/**********************Section hebergement***********************/
+
+
+.hébergements {
+    background-color: white;
+    width: 100%;
+}
+
+.hébergements article {
+    width: 100%;
+    margin-right: 2%;
 }
 
 
