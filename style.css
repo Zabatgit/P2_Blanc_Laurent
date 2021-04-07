@@ -357,6 +357,11 @@ article h3, p, .star {
 /*************************Section activités**************************/
 
 
+.actTitre {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .activités {
     display: flex;
     justify-content: space-between;
@@ -548,6 +553,11 @@ footer div a {
 .activités {
     display: flex;
     flex-direction: column;
+    width: 85%;
+}
+
+.activités img {
+    width: 100%;
 }
 
 .activités h3 {
@@ -575,6 +585,82 @@ footer {
 }
 
 
+
+
+}
+
+
+
+
+/************************Tablette***************************/
+
+
+@media screen and (min-width:481px) and (max-width: 1024px) {
+
+
+.inscription {
+    margin-right: 1em;
+}
+
+
+/*********************Section placementHebPop*********************/
+
+
+.placementSectionHebPop {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+/**********************Section populaire***********************/
+
+
+.populaires {
+    width: 98%;
+    margin-bottom: 2em;
+}
+
+.populaires img {
+    width: 20em;
+}
+
+.populaires article {
+    width: 90%;
+    height: 13em;
+    max-width: none;
+    min-width: none;
+}
+
+
+/**********************Section hébergements*********************/
+
+
+.hébergements {
+    width: 98%;
+    margin-bottom: 2em;
+}
+
+.hébergements article {
+    width: 42%;
+}
+
+
+/**********************Section populaires**********************/
+
+
+.activités img {
+    width: 28em;
+}
+
+
+
+/**********************Footer*************************/
+
+
+footer {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 }
