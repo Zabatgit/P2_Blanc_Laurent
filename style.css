@@ -550,11 +550,6 @@ footer div a {
     flex-direction: column;
 }
 
-.activités01 {
-    display: flex;
-    justify-content: center;
-}
-
 .activités h3 {
     margin-top: 1em;
 }
