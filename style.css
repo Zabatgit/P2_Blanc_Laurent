@@ -462,15 +462,26 @@ footer div a {
 .nav {
     display: flex;
     flex-direction: column-reverse;
-}
-
-.inscription {
-    display: flex;
+    width: 100%;
 }
 
 .nav nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.inscription {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+}
+
+.navHover {
+    margin-right: 0px;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 3px solid #F2F2F2;
 }
 
 .nav .inscription {
