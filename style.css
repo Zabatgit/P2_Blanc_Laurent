@@ -5,6 +5,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
 button {
@@ -39,16 +40,23 @@ article {
 h2 {
     margin-left: 2%;
     font-weight: bold;
+    font-size: 20px;
 }
 
 h3 {
     font-weight: bold;
+    font-size: 14px;
 }
 
 body {
+    margin: 0px;
+}
+
+#bloc_page {
+    margin-left: 2%;    
+    margin-right: 2%;
     max-width: 1440px;
-    margin: auto;    
-    box-sizing: border-box;
+    margin: auto;
 }
 
 
@@ -56,7 +64,7 @@ body {
 
 
 .logo {
-    margin: 1.5%;
+    margin-top: 1.3em;
 }
 
 header {
@@ -111,7 +119,7 @@ header nav a {
     justify-content: center;
     margin-right: 4%;
     margin-top: 2%;
-    
+    padding-left: 0px;
 }
 
 .filtres .bordure {
@@ -148,6 +156,11 @@ header nav a {
 .filtres li a:hover {
     color: #0065FC;
     font-weight: bold;
+}
+
+.recherche .filtres ul {
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .cancelMargin {
@@ -195,21 +208,17 @@ input:focus {
     outline: 0; 
 }
 
-.recherche p, .searchBar {
-    margin-left: 2%;
-}
 
 .searchBar {
    display: inline-flex;
 }
 
-.recherche p {
+.info {
     display: flex;
     align-items: center;
 }
 
 .recherche p i {
-    margin-left: 1%;
     margin-right: 1%;
     width: 30px;
     height: 30px;
@@ -220,9 +229,15 @@ input:focus {
     justify-content: center;
 }
 
-article h3, p, .star {
-    margin-left: 8%;
+.recherche h2 {
+    margin-left: 0px;
 }
+
+.recherche p {
+    margin-left: 0px;
+}
+
+
 
 
 /************************Div placementArticles****************************/
@@ -240,7 +255,7 @@ article h3, p, .star {
 
 .hébergements {
     background-color: #F2F2F2;
-    width: 65%;
+    width: 67%;
     border-radius: 30px;
     min-width: 14em;
 }
@@ -257,14 +272,17 @@ article h3, p, .star {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 1%;
 }
 
 .bold {
     font-weight: bold;
     font-size: 1.5em;
-    margin-top: 1.6em;
     margin-left: 1.8em;
+    margin-top: 0px;
+}
+
+.bold a:hover {
+    color: #0065FC;
 }
 
 
@@ -275,21 +293,24 @@ article h3, p, .star {
 
 .hébergements img {
     width: 100%;
-    height: 10em;
+    height: 8em;
     object-fit: cover;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     position: relative;
 }
 
 .hébergements article {
     border: 3px #FFFFFF solid;
-    border-radius: 30px;
-    width: 26%;
+    border-radius: 20px;
+    width: 29%;
     height: 25%;
     min-width: 12em;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 2em;
+}
+
+article h3, p, .star {
+    margin-left: 8%;
 }
 
 
@@ -299,8 +320,8 @@ article h3, p, .star {
 
 .populaires {
     background-color: #F2F2F2;
-    width: 33%;
-    border-radius: 30px;
+    width: 30%;
+    border-radius: 20px;
     min-width: 20em;
     display: flex;
     flex-direction: column;
@@ -318,11 +339,10 @@ article h3, p, .star {
     flex-direction: column;
     align-items: center;
     align-content: space-between;
-    margin: 5%;
 }
 
 .artPop .star {
-    margin-top: 50px;
+    margin-top: 25%;
 }
 
 .artPop p {
@@ -334,19 +354,18 @@ article h3, p, .star {
     height: 100%;
     object-fit: cover;
     position: relative;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .populaires article {
     display: flex;
     border: 3px #FFFFFF solid;
-    border-radius: 30px;
+    border-radius: 20px;
     max-width: 22em;
     min-width: 19em;
     height: 10em;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 
@@ -365,7 +384,6 @@ article h3, p, .star {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 2em;
 }
 
 .activités01 {
@@ -383,7 +401,7 @@ article h3, p, .star {
 }
 
 .activités img {
-    width: 20em;
+    width: 15em;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 30px;
@@ -402,7 +420,6 @@ article h3, p, .star {
 
 .articleRight img {
     height: 200px;
-    margin: 0px;
 }
 
 .articleRight {
@@ -425,7 +442,6 @@ footer {
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
-    margin-left: 2em;
 }
 
 footer div {
@@ -452,7 +468,13 @@ footer div a {
 
 
 body {
-    margin-left: 0px;
+    margin: 0px;
+}
+
+#bloc_page {
+    margin-left: 2em;    
+    margin-right: 2em;
+    margin: auto;
 }
 
 /**********************Header*************************/
