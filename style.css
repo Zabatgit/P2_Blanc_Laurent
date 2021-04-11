@@ -238,6 +238,10 @@ input:focus {
     margin-left: 0px;
 }
 
+.black {
+    color: black;
+}
+
 
 
 
@@ -259,6 +263,7 @@ input:focus {
     width: 67%;
     border-radius: 30px;
     min-width: 14em;
+    margin-top: 2em;
 }
 
 .hébergements h2 {
@@ -330,6 +335,7 @@ article h3, p, .star {
     min-width: 20em;
     display: flex;
     flex-direction: column;
+    margin-top: 2em;
 }
 
 .populaires h2 {
@@ -539,6 +545,10 @@ footer div a {
     margin: auto;
 }
 
+.recherche h2 {
+    margin-top: 2em;
+}
+
 .recherche input {
     width: 15em;
 }
@@ -557,8 +567,7 @@ footer div a {
     margin-bottom: 0.5em;
 }
 
-.filtres ul li {
-    margin-right: 2em;
+.bordure {
     margin-left: 2em;
 }
 
@@ -699,9 +708,14 @@ footer {
 
 
 .inscription {
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
+.bordure {
+    margin-left: 1em;
+}
+
+.no
 
 /*********************Section placementHebPop*********************/
 
