@@ -580,8 +580,11 @@ footer div a {
 }
 
 .cancelMargin {
-    margin-right: 50em;
     margin-bottom: 0.5em;
+}
+
+.nobordure {
+    width: 100%;
 }
 
 .bordure {
@@ -742,7 +745,10 @@ footer .footerWidth {
 
 .cancelMargin {
     text-align: left;
-    width: 100em;
+}
+
+.nobordure {
+    width: 100%;
 }
 
 /*********************Section placementHebPop*********************/
@@ -759,7 +765,7 @@ footer .footerWidth {
 
 
 .populaires {
-    width: 98%;
+    width: 100%;
     margin-bottom: 2em;
 }
 
@@ -794,7 +800,7 @@ footer .footerWidth {
 
 
 .hébergements {
-    width: 98%;
+    width: 100%;
     margin-bottom: 2em;
 }
 
