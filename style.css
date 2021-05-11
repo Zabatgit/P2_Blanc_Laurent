@@ -57,7 +57,7 @@ body {
 #bloc_page {
     margin-left: 2%;    
     margin-right: 2%;
-    max-width: 1440px;
+    max-width: 90em;
     width: 90%;
     margin: auto;
 }
@@ -171,6 +171,7 @@ header nav a {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 0.6em;
+    width: 100%;
 }
 
 #iconeNoire {
@@ -475,7 +476,7 @@ footer .footerWidth {
     flex-direction: row;
     justify-content: flex-start;
     width: 90%;
-    max-width: 1440px;
+    max-width: 90em;
 }
 
 footer .footerWidth div {
@@ -504,8 +505,8 @@ footer div a {
 #bloc_page {
     width: 100%;
     margin: auto;
+    max-width: none;
 }
-
 
 /**********************Header*************************/
 
