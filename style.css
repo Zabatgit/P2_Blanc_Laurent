@@ -101,6 +101,13 @@ header nav a {
 
 .inscription {
     padding-top: 45px;
+    color: #0065FC;
+    font-weight: 900;
+}
+
+.inscription:hover {
+    font-size: 150%;
+    padding-top: 40px;
 }
 
 .navHover:hover {
