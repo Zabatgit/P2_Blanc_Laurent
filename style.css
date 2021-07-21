@@ -443,8 +443,20 @@ article h3, p, .star {
     height: 500px;
 }
 
-.articleRight img {
-    height: 200px;
+.size1 img {
+    height: 250px;
+}
+
+.size2 img {
+    height: 150px;
+}
+
+.size3 img {
+    height: 150px;
+}
+
+.size4 img {
+    height: 250px;
 }
 
 .firstArt {
@@ -452,6 +464,9 @@ article h3, p, .star {
 }
 
 .secondArt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 22%;
 }
 
@@ -460,7 +475,18 @@ article h3, p, .star {
 }
 
 .fourthArt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 22%;
+}
+
+.size1{
+    height: 60%;
+}
+
+.size2{
+    height: 40%;
 }
 
 .activités h3 {
@@ -712,6 +738,22 @@ footer div a {
 
 .fourthArt {
     width: 100%;
+}
+
+.size1 img {
+    height: 200px;
+}
+
+.size2 img {
+    height: 200px;
+}
+
+.size3 img {
+    height: 200px;
+}
+
+.size4 img {
+    height: 200px;
 }
 
 
